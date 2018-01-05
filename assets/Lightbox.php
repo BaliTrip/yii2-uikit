@@ -1,12 +1,12 @@
 <?php
 
-namespace worstinme\uikit\assets;
+namespace balitrip\uikit\assets;
 
 use yii\web\AssetBundle;
 
 class Lightbox extends AssetBundle
 {
-    public $sourcePath = '@worstinme/uikit/uikit';
+    public $sourcePath = '@balitrip/uikit/uikit';
 
     public $css = [
         
@@ -17,6 +17,6 @@ class Lightbox extends AssetBundle
     ];
 
     public $depends = [
-        'worstinme\uikit\UikitAsset',
+        'balitrip\uikit\UikitAsset',
     ];
 }

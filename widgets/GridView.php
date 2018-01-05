@@ -1,6 +1,6 @@
 <?php
 
-namespace worstinme\uikit\widgets;
+namespace balitrip\uikit\widgets;
 
 use yii\helpers\ArrayHelper;
 
@@ -8,7 +8,7 @@ class GridView extends \yii\grid\GridView
 {
 	public $tableOptions = ['class' => 'uk-table uk-form uk-table-condensed uk-table-hover'];
 	public $summaryOptions = ['class'=>'uk-text-center']; 
-	public $pager =  ['class'=> 'worstinme\uikit\widgets\LinkPager'];
+	public $pager =  ['class'=> 'balitrip\uikit\widgets\LinkPager'];
 	public $beforeFooter;
 	public $afterFooter;
 	const FORMATTER_DECIMAL = 'Decimal';

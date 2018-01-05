@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace worstinme\uikit;
+namespace balitrip\uikit;
 
 use Yii;
 use yii\helpers\Json;

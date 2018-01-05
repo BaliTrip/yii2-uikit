@@ -1,6 +1,6 @@
 <?php
 
-namespace worstinme\uikit\widgets;
+namespace balitrip\uikit\widgets;
 
 use Yii;
 use yii\base\Widget;

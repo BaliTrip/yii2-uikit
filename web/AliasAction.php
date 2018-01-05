@@ -1,6 +1,6 @@
 <?php
 
-namespace worstinme\uikit\web;
+namespace balitrip\uikit\web;
 
 use Yii;
 use yii\base\Action;
@@ -12,7 +12,7 @@ use yii\helpers\Inflector;
  * public function actions()
  * {
  *     return [
- *         'error' => ['class' => 'worstinme\uikit\web\AliasAction'],
+ *         'error' => ['class' => 'balitrip\uikit\web\AliasAction'],
  *     ];
  * }
  * ```

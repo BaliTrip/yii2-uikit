@@ -1,12 +1,12 @@
 <?php
 
-namespace worstinme\uikit\assets;
+namespace balitrip\uikit\assets;
 
 use yii\web\AssetBundle;
 
 class Search extends AssetBundle
 {
-    public $sourcePath = '@worstinme/uikit/uikit';
+    public $sourcePath = '@balitrip/uikit/uikit';
 
     public $css = [
         'css/components/search.min.css',
@@ -17,6 +17,6 @@ class Search extends AssetBundle
     ];
 
     public $depends = [
-        'worstinme\uikit\assets\Autocomplete',
+        'balitrip\uikit\assets\Autocomplete',
     ];
 }

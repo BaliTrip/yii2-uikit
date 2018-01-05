@@ -4,7 +4,7 @@
  * @copyright Copyright (c) 2008 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
-namespace worstinme\uikit;
+namespace balitrip\uikit;
 
 use Yii;
 use yii\helpers\Html;
@@ -15,7 +15,7 @@ use yii\widgets\ActiveFormAsset;
 class ActiveForm extends \yii\widgets\ActiveForm
 {
 
-    public $fieldClass = 'worstinme\uikit\ActiveField';
+    public $fieldClass = 'balitrip\uikit\ActiveField';
     /**
      * @var string the form layout. Either 'default', 'horizontal' or 'stacked'.
      */

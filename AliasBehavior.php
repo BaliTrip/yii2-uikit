@@ -1,6 +1,6 @@
 <?php
 
-namespace worstinme\uikit; 
+namespace balitrip\uikit; 
 
 class AliasBehavior extends \yii\behaviors\SluggableBehavior
 {

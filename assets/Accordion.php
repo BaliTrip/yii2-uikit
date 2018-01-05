@@ -1,12 +1,12 @@
 <?php
 
-namespace worstinme\uikit\assets;
+namespace balitrip\uikit\assets;
 
 use yii\web\AssetBundle;
 
 class Accordion extends AssetBundle
 {
-    public $sourcePath = '@worstinme/uikit/uikit';
+    public $sourcePath = '@balitrip/uikit/uikit';
 
     public $css = [
         'css/components/accordion.min.css',
@@ -17,6 +17,6 @@ class Accordion extends AssetBundle
     ];
 
     public $depends = [
-        'worstinme\uikit\UikitAsset',
+        'balitrip\uikit\UikitAsset',
     ];
 }

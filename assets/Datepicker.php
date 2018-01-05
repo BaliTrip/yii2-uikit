@@ -1,12 +1,12 @@
 <?php
 
-namespace worstinme\uikit\assets;
+namespace balitrip\uikit\assets;
 
 use yii\web\AssetBundle;
 
 class Datepicker extends AssetBundle
 {
-    public $sourcePath = '@worstinme/uikit/uikit';
+    public $sourcePath = '@balitrip/uikit/uikit';
 
     public $css = [
         'css/components/datepicker.min.css',
@@ -17,6 +17,6 @@ class Datepicker extends AssetBundle
     ];
 
     public $depends = [
-        'worstinme\uikit\UikitAsset',
+        'balitrip\uikit\UikitAsset',
     ];
 }

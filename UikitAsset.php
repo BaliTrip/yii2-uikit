@@ -1,13 +1,13 @@
 <?php
 
-namespace worstinme\uikit;
+namespace balitrip\uikit;
 
 use yii\web\AssetBundle;
 
 
 class UikitAsset extends AssetBundle
 {
-    public $sourcePath = '@worstinme/uikit/uikit';
+    public $sourcePath = '@balitrip/uikit/uikit';
 
     public $css = [
         'css/uikit.min.css',

@@ -1,5 +1,5 @@
 <?php
-namespace worstinme\uikit;
+namespace balitrip\uikit;
 
 use Yii;
 use yii\base\InvalidConfigException;
