@@ -7,6 +7,10 @@ use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\helpers\Url;
 
+/**
+ * Class Nav
+ * @package balitrip\uikit
+ */
 class Nav extends Widget
 {
 
@@ -96,7 +100,7 @@ class Nav extends Widget
         $label = $this->encodeLabels ? Html::encode($item['label']) : $item['label'];
         $options = ArrayHelper::getValue($item, 'options', []);
         $items = ArrayHelper::getValue($item, 'items');
-        if (!count($items)) {
+        if (is_array($items) && !count($items)) {
             $items = null;
         }
         $url = Url::to(ArrayHelper::getValue($item, 'url', false));
